@@ -13,10 +13,8 @@ const HomeContainer = styled.div`
   max-width: 38rem;
   height: 100vh;
   background-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 3rem 1rem;
+  margin: 1.5rem auto;
 `
 
 const HomeHeader = styled.h1`
