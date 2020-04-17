@@ -13,8 +13,8 @@ const HomeContainer = styled.div`
   max-width: 38rem;
   height: 100vh;
   background-color: #fff;
-  padding: 3rem 1rem;
-  margin: 1.5rem auto;
+  padding: 0 1rem;
+  margin: 0 auto;
 `
 
 const HomeHeader = styled.h1`
@@ -35,6 +35,8 @@ const HomeLead = styled.p`
   margin-bottom: 1rem;
 `
 const TwitterLink = styled.a`
+  display: flex;
+  align-items: center;
   font-weight: inherit;
   line-height: inherit;
   color: #1b95e0;
@@ -42,7 +44,7 @@ const TwitterLink = styled.a`
   font-size: inherit;
 
   &:hover {
-    text-decoration: Underline;
+    text-decoration: underline;
   }
 `
 
@@ -56,7 +58,7 @@ const AboutLink = styled(Link)`
   padding: 0px;
 
   &:hover {
-    text-decoration: Underline;
+    text-decoration: underline;
     color: #ff9800;
   }
 `
@@ -98,7 +100,7 @@ const IndexPage = () => (
       </TwitterLink> for more updates.
     </p>
     
-    <h3>Again, thank you for visiting.</h3>
+    <h3>Thank you for visiting my blog.</h3>
   </HomeContainer>
 )
 

@@ -9,14 +9,13 @@ const AboutContainer = styled.div`
   justify-content: center;
   align-items: center;
   max-width: 38rem;
-  height: 100vh;
   background-color: #fff;
-  padding: 3rem 1rem;
-  margin: 1.5rem auto;
+  padding: 0 1rem;
+  margin: 0 auto;
 `
 
 const AboutHeader = styled.h1`
-  margin-top: 2.5rem;
+  padding-top: 3rem;
   margin-bottom: 1rem;
   font-weight: 500;
   font-size: 3rem;
@@ -54,6 +53,16 @@ const TwitterButton = styled.a`
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 `
+
+const FooterLead = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: inherit;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+`
+
 const AboutPage = () => (
   <AboutContainer>
     <Helmet title="Kimani Maina | About" />
@@ -94,7 +103,7 @@ const AboutPage = () => (
       </TwitterButton>
       for updates on the progress.
     </p>
-    <h3>Again, thank you for visiting.</h3>
+    <FooterLead>Again, thank you for visiting.</FooterLead>
   </AboutContainer>
 )
 
