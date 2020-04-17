@@ -11,7 +11,6 @@ const AboutContainer = styled.div`
   max-width: 38rem;
   height: 100vh;
   background-color: #fff;
-  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;

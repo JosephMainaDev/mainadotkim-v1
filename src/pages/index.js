@@ -13,7 +13,6 @@ const HomeContainer = styled.div`
   max-width: 38rem;
   height: 100vh;
   background-color: #fff;
-  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -52,7 +51,7 @@ const TwitterLink = styled.a`
 const AboutLink = styled(Link)`
   display: flex;
   align-items: center;
-  color: inherit;
+  color: #ff9800;
   font-weight: 400;
   text-decoration: none;
   margin: 0px;
@@ -60,7 +59,7 @@ const AboutLink = styled(Link)`
 
   &:hover {
     text-decoration: Underline;
-    color: inherit;
+    color: #ff9800;
   }
 `
 
