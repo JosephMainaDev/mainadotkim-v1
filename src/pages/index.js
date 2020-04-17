@@ -52,7 +52,7 @@ const TwitterLink = styled.a`
 const AboutLink = styled(Link)`
   display: flex;
   align-items: center;
-  color: inherit;
+  color: #ff9800;
   font-weight: 400;
   text-decoration: none;
   margin: 0px;
@@ -60,7 +60,7 @@ const AboutLink = styled(Link)`
 
   &:hover {
     text-decoration: Underline;
-    color: inherit;
+    color: #ff9800;
   }
 `
 
