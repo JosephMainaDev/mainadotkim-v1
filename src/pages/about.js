@@ -32,13 +32,13 @@ const AboutLead = styled.p`
   margin-bottom: 1rem;
 `
 const TwitterButton = styled.a`
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   font-weight: 400;
   line-height: 1.5;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -99,7 +99,7 @@ const AboutPage = () => (
       Follow me on
       <TwitterButton href="https://twitter.com/mainadotkim">
         <FaTwitter />
-        &nbsp;&nbsp;@mainadotkim
+        &nbsp;@mainadotkim
       </TwitterButton>
       for updates on the progress.
     </p>

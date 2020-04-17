@@ -35,7 +35,7 @@ const HomeLead = styled.p`
   margin-bottom: 1rem;
 `
 const TwitterLink = styled.a`
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-weight: inherit;
   line-height: inherit;
