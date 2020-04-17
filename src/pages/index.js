@@ -21,7 +21,7 @@ const HomeContainer = styled.div`
 `
 
 const HomeHeader = styled.h1`
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 500;
   font-size: 3rem;
@@ -50,11 +50,13 @@ const TwitterLink = styled.a`
 `
 
 const AboutLink = styled(Link)`
-  display: block;
-  padding: 2rem 0;
+  display: flex;
+  align-items: center;
   color: inherit;
   font-weight: 400;
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 
   &:hover {
     text-decoration: Underline;
@@ -81,7 +83,10 @@ const IndexPage = () => (
     </p>
 
     <h3>
-      <AboutLink to="/about">Read more <IoIosArrowForward /></AboutLink>
+      <AboutLink to="/about">
+        Read more&nbsp;&nbsp;
+        <IoIosArrowForward />
+      </AboutLink>
     </h3>
     
     <p>
@@ -92,7 +97,7 @@ const IndexPage = () => (
       In the meantime, follow me on &nbsp;
       <TwitterLink href="https://twitter.com/mainadotkim">
         <FaTwitterSquare />
-        &nbsp;&nbsp;@mainadotkim
+        &nbsp;@mainadotkim
       </TwitterLink> for more updates.
     </p>
     
