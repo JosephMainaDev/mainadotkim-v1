@@ -37,7 +37,7 @@ const HomeLead = styled.p`
 const TwitterLink = styled.a`
   display: inline-flex;
   align-items: center;
-  font-weight: inherit;
+  font-weight: 400;
   line-height: inherit;
   color: #1b95e0;
   text-decoration: none;
@@ -45,6 +45,7 @@ const TwitterLink = styled.a`
 
   &:hover {
     text-decoration: underline;
+    font-weight: 400;
   }
 `
 
