@@ -34,10 +34,13 @@ const HomeLead = styled.p`
   margin-top: 0;
   margin-bottom: 1rem;
 `
+
 const TwitterLink = styled.a`
   display: inline-flex;
-  align-items: center;
-  font-weight: 400;
+  align-items: flex-end;
+  padding: 0 1rem;
+  margin: 0 1 rem;
+  font-weight: 500;
   line-height: inherit;
   color: #1b95e0;
   text-decoration: none;
@@ -45,7 +48,7 @@ const TwitterLink = styled.a`
 
   &:hover {
     text-decoration: underline;
-    font-weight: 400;
+    font-weight: 500;
   }
 `
 
@@ -94,9 +97,9 @@ const IndexPage = () => (
     </p>
 
     <p>
-      In the meantime, follow me on &nbsp;
+      In the meantime, follow me on
       <TwitterLink href="https://twitter.com/mainadotkim">
-        <FaTwitterSquare />
+        <FaTwitter />
         &nbsp;@mainadotkim
       </TwitterLink> for more updates.
     </p>

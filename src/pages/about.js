@@ -31,27 +31,22 @@ const AboutLead = styled.p`
   margin-top: 0;
   margin-bottom: 1rem;
 `
-const TwitterButton = styled.a`
+
+const TwitterLink = styled.a`
   display: inline-flex;
-  align-items: center;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #fff;
-  text-align: center;
+  align-items: flex-end;
+  padding: 0 1rem;
+  margin: 0 1 rem;
+  font-weight: 500;
+  line-height: inherit;
+  color: #1b95e0;
   text-decoration: none;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: #1b95e0;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  margin: 0 1rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: inherit;
+
+  &:hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
 `
 
 const FooterLead = styled.h3`
@@ -97,11 +92,10 @@ const AboutPage = () => (
     </p>
     <p>
       Follow me on
-      <TwitterButton href="https://twitter.com/mainadotkim">
+      <TwitterLink href="https://twitter.com/mainadotkim">
         <FaTwitter />
         &nbsp;@mainadotkim
-      </TwitterButton>
-      for updates on the progress.
+      </TwitterLink> for updates on the progress.
     </p>
     <FooterLead>Again, thank you for visiting.</FooterLead>
   </AboutContainer>
