@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import Helmet from "react-helmet"
 import styled from "styled-components"
-import { FaTwitterSquare } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 import { IoIosArrowForward } from "react-icons/io"
 
 const HomeContainer = styled.div`
