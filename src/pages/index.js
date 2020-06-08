@@ -36,10 +36,6 @@ const HomeLead = styled.p`
 `
 
 const TwitterLink = styled.a`
-  display: inline-flex;
-  align-items: flex-end;
-  padding: 0 1rem;
-  margin: 0 1 rem;
   font-weight: 500;
   line-height: inherit;
   color: #1b95e0;
@@ -100,7 +96,7 @@ const IndexPage = () => (
       In the meantime, follow me on
       <TwitterLink href="https://twitter.com/mainadotkim">
         <FaTwitter />
-        &nbsp;@mainadotkim
+        &nbsp;&nbsp;@mainadotkim
       </TwitterLink> for more updates.
     </p>
     
