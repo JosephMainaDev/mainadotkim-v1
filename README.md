@@ -1,4 +1,4 @@
-# Kimani Maina Blog
+# Kimani Maina Blog - v1
 
 This is the source code for version 1 of my personal blog. It is a Jamstack app built with Gatsby.
 
